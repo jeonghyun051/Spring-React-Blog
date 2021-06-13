@@ -28,3 +28,21 @@ import 'bootstrap/dist/css/bootstrap.min.css';
     "printWidth": 80
 }
 ```
+
+### 배포 명령
+
+- mvn compile
+- mvn clean package
+- docker-compose up --build
+
+### React와 Springboot 역방향 연결 link 걸기 (localhost로 같이 사용가능)
+
+https://xiaolishen.medium.com/develop-in-docker-a-node-backend-and-a-react-front-end-talking-to-each-other-5c522156f634
+
+### 도커 명령어
+
+- docker volume ls
+- docker volume prune
+- docker stop $(docker ps -aq)
+- docker rm $(docker ps -aq)
+- docker rmi $(docker images -aq)
